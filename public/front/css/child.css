@@ -1,0 +1,2802 @@
+/*
+Theme Name: Save Child
+Author: EnterActive - Bolivia
+Version: 1.0.0
+Author URI: http://www.enteractive.com.bo/
+Theme URI: http://www.enteractive.com.bo/
+Description: Tema para Save the Children Bolivia
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: save the children, bolivia
+Text Domain: fulton
+Template: fulton
+*/
+@font-face {
+	font-family: 'GillSans';
+	src: url(../fonts/GillSansInfantMT-Regular.woff);
+}
+@font-face {
+	font-family: 'GillSansBold';
+	src: url(../fonts/GillSansInfantStd-Bold.otf);
+}
+@font-face {
+	font-family: 'GillSansBoldSemi';
+	src: url(../fonts/GillSans-SemiBold.woff);
+}
+@font-face {
+	font-family: 'FootLight';
+	src: url(../fonts/ftltlt.woff);
+}
+@font-face {
+	font-family: 'TradeGothic';
+	src: url(../fonts/TradeGothicLTCom-BdCn20.ttf),url(../fonts/tradegothicltstd-bdcn20-webfont.woff);
+}
+body{
+	font-family: 'GillSans';
+	font-weight: normal!important;
+}
+html{
+	-webkit-text-size-adjust:auto;
+	text-size-adjust:auto;
+}
+h1, h2, h3, h4, h5, h6,p{
+	font-weight: normal!important;
+}
+.section-title h1{
+	text-transform: uppercase;
+}
+ul.submenu._2 li:hover a{
+	background: #DA291C;
+}
+.thm-btn.style-2{
+	background:#DA291C; 
+	color:#fff;
+	font-size: 16px!important;
+	border-color: #DA291C;
+	border-radius: .25em;
+}
+.thm-btn.style-2:hover{
+	background: #DA291C;
+}
+ul.social-icon.menuopt a{
+	color: #333;
+}
+.main-menu .navigation.clearfix{
+	float: right;
+	right: 223px;
+}
+.theme_menu .logo{
+	margin-top: 15px;
+}
+.main-header .social-icon a{
+	font-size: 12px;
+}
+.main-header .social-icon{
+	margin-right: 0;
+}
+.rev_slider_wrapper .slide-content-box h1{
+	color: #222221!important;
+	background: #fff;
+	box-shadow: 12px 0 0 #fff, -12px 0 0 #fff;
+	border-radius: .08em;
+	margin-right: 12px;
+	margin-left: 12px;
+	font-size: 60px!important;
+	font-weight: bold;
+	padding: 7px 2px 6px 2px;
+	text-transform: uppercase;
+	font-family: 'TradeGothic'!important;
+	line-height: 66px;
+}
+.rev_slider_wrapper .slider_about h1{
+	text-transform: uppercase;
+	font-family: 'TradeGothic'!important;
+	text-align: right!important;
+	line-height: 1.07!important;
+	letter-spacing: normal!important;
+	width: 100%;
+}
+.rev_slider_wrapper .slider_about h1 span{
+	color: #222221!important;
+	background: #fff;
+	box-shadow: 12px 0 0 #fff, -12px 0 0 #fff;
+	-webkit-box-decoration-break:clone;
+	border-radius: .08em;
+	font-size: 50px!important;
+}
+.rev_slider_wrapper .slide-content-box p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: normal!important;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	font-family: "GillSans"!important;
+	color: #222221!important;
+	background: #fff;
+	box-shadow: 12px 0 0 #fff, -12px 0 0 #fff;
+	border-radius: .28em;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.rev_slider_wrapper .slide-content-box .button a{
+	font-family: "GillSans"!important;
+}
+.rev_slider_wrapper .slide-content-box .button a:hover{
+	color: #fff;
+}
+.rev_slider_wrapper .slide-content-box .button a.thm-btn{
+	background: #DA291C;
+	border-color: #DA291C;
+	box-shadow: 10px 0 0 #DA291C, -10px 0 0 #DA291C;
+	border-radius: .4em;
+	font-size: 16px!important;
+}
+.rev_slider_wrapper .tp-loop-wrap {
+   width:100% !important;
+}
+.form-horizontal .form-group{
+	margin-right: 0;
+	margin-left: 0;
+}
+.boton_enviar_ini{
+	float: right;
+	margin-top: 0px;
+	background: #DA291C;
+	border: solid 1px #DA291C;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+input.boton_enviar_ini:hover{
+	color: #fff;
+}
+.form-control{
+	background: rgba(255,255,255,.5);
+}
+i.fa_contact{
+	font-size: 24px;
+	width: 48px;
+	height: 48px;
+	line-height: 43px;
+}
+.mensaje_inicio{
+	background: #fff!important;
+}
+.gallery.light{
+	background: #f1f0ea;
+}
+.gallery.light .bottom p{
+	color: #333;
+}
+.gallery.light .bottom h4 a{
+	color: #333;
+}
+h1,h2,h3,h4,h5{
+	font-family: "TradeGothic"!important;
+}
+p{
+	font-family: "GillSans"!important;
+}
+.section-title h2{
+	font-family: 'TradeGothic'!important;
+}
+.section-title h1{
+	padding-bottom: 0;
+	margin-bottom: 60px;
+}
+.section-title h2:after,.section-title h1:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 70px;
+	height: 2px;
+	background: #DA291C;
+	bottom: -10px;
+}
+.default-blog-news .lower-content .default_link:hover{
+	border-bottom: none;
+}
+.social-icon li.fa_inicio{
+	background-image: url(img/STC_SaveCircle_RGB.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.service-area{
+	background: #f1f0ea;
+}
+.unete_carusel {
+	width: 50px;
+	height: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+.algo_servicio1{
+	background-image: url(img/unete/circulo.png);
+}
+.algo_servicio2{
+	background-image: url(img/unete/corazon.png);
+}
+.algo_servicio3{
+	background-image: url(img/unete/salu.png);
+}
+.algo_servicio4{
+	background-image: url(img/unete/salud.png);
+}
+.algo_servicio5{
+	background-image: url(img/unete/hora.png);
+}
+.service-area .single-item .text-holder{
+	border:none;
+}
+.service-area .single-item .text-holder h4 a{
+	color: #DA291C!important;
+	pointer-events: none;
+}
+.solucion_about{
+	position: absolute;
+	top: 19%;
+	left: -130px;
+}
+.solucion_about li{
+	position: relative;
+}
+.solucion_about li.ite_2{
+	left: 50px;
+}
+.solucion_about li.ite_3{
+	left: 100px;
+}
+.solucion_about li a{
+	background: #DA291C;
+	border-radius: .3em;
+	color: #fff;
+	font-size: 40px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-family: 'TradeGothic'!important;
+}
+.button_ini a{
+	background: #DA291C;
+	padding: 10px 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "GillSans"!important;
+	margin-top: 25px;
+	border-radius: .3em;
+}
+.about .content h3{
+	font-family: 'TradeGothic'!important;
+}
+.about .content{
+	margin-top: 50px;
+}
+.inner-banner.has-base-color-overlay .col-md-5 .box{
+	background: linear-gradient(-135deg,#DA291C 40%,#761706 100%);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.footer-bottom{
+	position: relative;
+	background: #343434;
+}
+.footer-bottom:before{
+	position: absolute;
+	content: ' ';
+	width: 100%;
+	height: 5px;
+	top:-5px;
+	background: linear-gradient(-135deg,#DA291C 40%,#761706 100%);
+}
+.footer-bottom h3,.footer-bottom h2, .footer-bottom h4, .footer-bottom h5{
+	color: #fff;
+	text-transform: uppercase;
+}
+.footer-bottom .social-icon{
+	margin: 15px 0;
+}
+.footer-bottom ul.social-icon li a,.footer-bottom ul.social-icon li a:hover{
+	color: #fff;
+	background: none;
+	width: 48px;
+	height: 48px;
+	line-height: 57px;
+	margin: 0;
+}
+.footer-bottom ul.social-icon li a i.fa_contact{
+	width: auto;
+	height: auto;
+}
+.footer-bottom p{
+	color: #fff;
+	font-size: 12px;
+}
+.footer-bottom .dir_footer{
+	padding-left: 50px;
+	border-left: 1px solid #fff;
+}
+.dir_footer .col-sm-7 .get-text{
+	margin-left: 20px;
+}
+.footer-bottom .copy-text{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.footer-bottom .get-text{
+	margin-top: 18px;
+	margin-bottom: 15px;
+}
+.footer-bottom .get-text p{
+	color: #fff!important;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+.footer-bottom .social-icon li.fa_inicio{
+	background: none;
+}
+.footer-bottom img, .footer-bottom svg, .logo img, .logo svg{
+	min-width: 305px;
+	height: auto;
+}
+.subscribe{
+	background: #f1f0ea;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+.pilares{
+	max-width: 1400px;
+	margin: 200px auto 60px;
+}
+.pilares svg{
+	max-width: 100%;
+	height: auto;
+}
+.aporte_padre{
+	width: 100%;
+	height: max-content;
+	height: -moz-max-content;
+	height: -ms-max-content;
+	background: #f1f0ea;
+	background-image: url(images/aportes/mundo.svg);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+.aporte{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.aporte .owl-carousel .owl-stage-outer{
+	overflow: visible;
+}
+.aporte .owl-item .item{
+	opacity: 0;
+}
+.aporte .owl-item.active .item{
+	opacity: 1;
+}
+.aporte .owl-item.active img{
+	transform: scale(1) translateY(18%);
+	opacity: 1;
+}
+.aporte .owl-item.active .contenido_aportes .titulo{
+	transform: translateX(-100px);
+	opacity: 1;
+}
+.aporte .owl-item.active .contenido_aportes h2{
+	transform: translateY(0);
+	opacity: 1;
+}
+.aporte .owl-item.active .contenido_aportes p, .aporte .owl-item.active .contenido_aportes ul, .aporte .owl-item.active .contenido_aportes .owl_nextI{
+	transform: translateX(0);
+	opacity: 1;
+	position: relative;
+	z-index: 1;
+}
+.aporte .contenido_aportes{
+	text-align: center;
+	padding: 182.5px 0;
+	margin-left: 50px;
+	min-height: 652px;
+}
+.aporte .contenido_aportes p,.aporte .contenido_aportes ul{
+	color: #333333;
+	font-size: 24px;
+	margin-bottom: 40px;
+	opacity: 0;
+	transform: translateX(100px);
+	transition: all 1.5s;
+	transition-delay: .9s;
+}
+.aporte .contenido_aportes ul{
+	text-align: center;
+	width: max-content;
+	width: -moz-max-content;
+	width: -ms-max-content;
+	margin: auto;
+	line-height: 26px;
+}
+.aporte .contenido_aportes .owl_nextI{
+	padding: 10px 40px;
+	border-radius: 5px;
+	color: #fff;
+	background: #DA291C;
+	width: max-content;
+	width: -moz-max-content;
+	width: -ms-max-content;
+	max-width: 21%;
+	margin: auto;
+	cursor: pointer;
+	opacity: 0;
+	transform: translateX(-100px);
+	transition: all 1.5s;
+	transition-delay: .9s;
+}
+.aporte img{
+	border-radius: 50%;
+	position: absolute;
+	transform: scale(.5) translateY(18%);
+	opacity: 0;
+	transition: all 1.5s;
+	transition-delay: .3s;
+}
+.contenido_aportes h2{
+	color: #DA291C;
+	opacity: 0;
+	transform: translateY(-100px);
+	transition: all 1.5s;
+	transition-delay: .6s;
+}
+.contenido_aportes .section-title h2:after{
+	display: none;
+}
+.contenido_aportes .titulo{
+	position: absolute;
+	bottom: 30px;
+	transform: translateX(-100px) translateY(100px);
+	opacity: 0;
+	transition: all 1.5s;
+	transition-delay: .6s;
+}
+.contenido_aportes .titulo h1{
+	text-transform: uppercase;
+	font-size: 48px;
+	text-align: left;
+}
+.contenido_aportes .titulo h1 span{
+	padding: 0 10px;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 8px 0 0 #fff, -8px 0 0 #fff;
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
+}
+.contenido_aportes .titulo h1 i{
+	font-style: normal;
+	color: #DA291C;
+}
+.pilares h2{
+	text-transform: uppercase;
+	font-size: 22px;
+}
+.pilares h2:after{
+	display: none;
+}
+.pilares .section-title{
+	margin-bottom: 10px;
+}
+.pilares .section-title h1{
+	margin-bottom: 100px;
+}
+.pilares .section-title a, .pilares .section-title a:hover{
+	color: inherit;
+}
+.pilares .contenido_pilares{
+	padding-right: 70px;
+}
+.pilares .contenido_pilares .col-md-6:hover .section-title h2{
+	color: #DA291C;
+}
+.pilares .contenido_pilares .row{
+	margin-bottom: 20px;
+}
+.pilares .contenido_pilares p{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #333333;
+	text-align: justify;
+	text-justify:inter-word;
+}
+.pilares .img_pilares:before{
+	content: '';
+	position: absolute;
+	width: 850px;
+	height: 850px;
+	transition: all .51s ease-in;
+	background: radial-gradient(transparent 30%, rgba(255,255,255,1) 31%);
+	background: -moz-radial-gradient(transparent 30%, rgba(255,255,255,1) 31%);
+	background: -webkit-radial-gradient(transparent 30%, rgba(255,255,255,1) 31%);
+	background: -ms-radial-gradient(transparent 30%, rgba(255,255,255,1) 31%);
+	background: -o-radial-gradient(transparent 30%, rgba(255,255,255,1) 31%);
+}
+.pilares .img_pilares.efecto_img:before{
+	animation: entrada_img 2s ease-in;
+	animation-delay: .1s;
+	animation-fill-mode: forwards;
+	-webkit-animation: entrada_img 2s ease-in;
+	-webkit-animation-delay: .1s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation: entrada_img 2s ease-in;
+	-moz-animation-delay: .1s;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation: entrada_img 2s ease-in;
+	-ms-animation-delay: .1s;
+	-ms-animation-fill-mode: forwards;
+	-o-animation: entrada_img 2s ease-in;
+	-o-animation-delay: .1s;
+	-o-animation-fill-mode: forwards;
+}
+@keyframes entrada_img {
+    0% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    1% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    2% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    3% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    4% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    5% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    6% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    7% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    8% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    9% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    10% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    11% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    12% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    13% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    14% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    15% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    16% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    17% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    18% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    19% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    20% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    21% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    22% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    23% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    24% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    25% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    26% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    27% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    28% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    29% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    30% {
+        background: -webkit-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -moz-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -ms-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: -o-radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+        background: radial-gradient(transparent 30%, rgba(255, 255, 255, 1) 31%);
+    }
+    31% {
+        background: -webkit-radial-gradient(transparent 31%, rgba(255, 255, 255, 1) 32%);
+        background: -moz-radial-gradient(transparent 31%, rgba(255, 255, 255, 1) 32%);
+        background: -ms-radial-gradient(transparent 31%, rgba(255, 255, 255, 1) 32%);
+        background: -o-radial-gradient(transparent 31%, rgba(255, 255, 255, 1) 32%);
+        background: radial-gradient(transparent 31%, rgba(255, 255, 255, 1) 32%);
+    }
+    32% {
+        background: -webkit-radial-gradient(transparent 32%, rgba(255, 255, 255, 1) 33%);
+        background: -moz-radial-gradient(transparent 32%, rgba(255, 255, 255, 1) 33%);
+        background: -ms-radial-gradient(transparent 32%, rgba(255, 255, 255, 1) 33%);
+        background: -o-radial-gradient(transparent 32%, rgba(255, 255, 255, 1) 33%);
+        background: radial-gradient(transparent 32%, rgba(255, 255, 255, 1) 33%);
+    }
+    33% {
+        background: -webkit-radial-gradient(transparent 33%, rgba(255, 255, 255, 1) 34%);
+        background: -moz-radial-gradient(transparent 33%, rgba(255, 255, 255, 1) 34%);
+        background: -ms-radial-gradient(transparent 33%, rgba(255, 255, 255, 1) 34%);
+        background: -o-radial-gradient(transparent 33%, rgba(255, 255, 255, 1) 34%);
+        background: radial-gradient(transparent 33%, rgba(255, 255, 255, 1) 34%);
+    }
+    34% {
+        background: -webkit-radial-gradient(transparent 34%, rgba(255, 255, 255, 1) 35%);
+        background: -moz-radial-gradient(transparent 34%, rgba(255, 255, 255, 1) 35%);
+        background: -ms-radial-gradient(transparent 34%, rgba(255, 255, 255, 1) 35%);
+        background: -o-radial-gradient(transparent 34%, rgba(255, 255, 255, 1) 35%);
+        background: radial-gradient(transparent 34%, rgba(255, 255, 255, 1) 35%);
+    }
+    35% {
+        background: -webkit-radial-gradient(transparent 35%, rgba(255, 255, 255, 1) 36%);
+        background: -moz-radial-gradient(transparent 35%, rgba(255, 255, 255, 1) 36%);
+        background: -ms-radial-gradient(transparent 35%, rgba(255, 255, 255, 1) 36%);
+        background: -o-radial-gradient(transparent 35%, rgba(255, 255, 255, 1) 36%);
+        background: radial-gradient(transparent 35%, rgba(255, 255, 255, 1) 36%);
+    }
+    36% {
+        background: -webkit-radial-gradient(transparent 36%, rgba(255, 255, 255, 1) 37%);
+        background: -moz-radial-gradient(transparent 36%, rgba(255, 255, 255, 1) 37%);
+        background: -ms-radial-gradient(transparent 36%, rgba(255, 255, 255, 1) 37%);
+        background: -o-radial-gradient(transparent 36%, rgba(255, 255, 255, 1) 37%);
+        background: radial-gradient(transparent 36%, rgba(255, 255, 255, 1) 37%);
+    }
+    37% {
+        background: -webkit-radial-gradient(transparent 37%, rgba(255, 255, 255, 1) 38%);
+        background: -moz-radial-gradient(transparent 37%, rgba(255, 255, 255, 1) 38%);
+        background: -ms-radial-gradient(transparent 37%, rgba(255, 255, 255, 1) 38%);
+        background: -o-radial-gradient(transparent 37%, rgba(255, 255, 255, 1) 38%);
+        background: radial-gradient(transparent 37%, rgba(255, 255, 255, 1) 38%);
+    }
+    38% {
+        background: -webkit-radial-gradient(transparent 38%, rgba(255, 255, 255, 1) 39%);
+        background: -moz-radial-gradient(transparent 38%, rgba(255, 255, 255, 1) 39%);
+        background: -ms-radial-gradient(transparent 38%, rgba(255, 255, 255, 1) 39%);
+        background: -o-radial-gradient(transparent 38%, rgba(255, 255, 255, 1) 39%);
+        background: radial-gradient(transparent 38%, rgba(255, 255, 255, 1) 39%);
+    }
+    39% {
+        background: -webkit-radial-gradient(transparent 39%, rgba(255, 255, 255, 1) 40%);
+        background: -moz-radial-gradient(transparent 39%, rgba(255, 255, 255, 1) 40%);
+        background: -ms-radial-gradient(transparent 39%, rgba(255, 255, 255, 1) 40%);
+        background: -o-radial-gradient(transparent 39%, rgba(255, 255, 255, 1) 40%);
+        background: radial-gradient(transparent 39%, rgba(255, 255, 255, 1) 40%);
+    }
+    40% {
+        background: -webkit-radial-gradient(transparent 40%, rgba(255, 255, 255, 1) 41%);
+        background: -moz-radial-gradient(transparent 40%, rgba(255, 255, 255, 1) 41%);
+        background: -ms-radial-gradient(transparent 40%, rgba(255, 255, 255, 1) 41%);
+        background: -o-radial-gradient(transparent 40%, rgba(255, 255, 255, 1) 41%);
+        background: radial-gradient(transparent 40%, rgba(255, 255, 255, 1) 41%);
+    }
+    41% {
+        background: -webkit-radial-gradient(transparent 41%, rgba(255, 255, 255, 1) 42%);
+        background: -moz-radial-gradient(transparent 41%, rgba(255, 255, 255, 1) 42%);
+        background: -ms-radial-gradient(transparent 41%, rgba(255, 255, 255, 1) 42%);
+        background: -o-radial-gradient(transparent 41%, rgba(255, 255, 255, 1) 42%);
+        background: radial-gradient(transparent 41%, rgba(255, 255, 255, 1) 42%);
+    }
+    42% {
+        background: -webkit-radial-gradient(transparent 42%, rgba(255, 255, 255, 1) 43%);
+        background: -moz-radial-gradient(transparent 42%, rgba(255, 255, 255, 1) 43%);
+        background: -ms-radial-gradient(transparent 42%, rgba(255, 255, 255, 1) 43%);
+        background: -o-radial-gradient(transparent 42%, rgba(255, 255, 255, 1) 43%);
+        background: radial-gradient(transparent 42%, rgba(255, 255, 255, 1) 43%);
+    }
+    43% {
+        background: -webkit-radial-gradient(transparent 43%, rgba(255, 255, 255, 1) 44%);
+        background: -moz-radial-gradient(transparent 43%, rgba(255, 255, 255, 1) 44%);
+        background: -ms-radial-gradient(transparent 43%, rgba(255, 255, 255, 1) 44%);
+        background: -o-radial-gradient(transparent 43%, rgba(255, 255, 255, 1) 44%);
+        background: radial-gradient(transparent 43%, rgba(255, 255, 255, 1) 44%);
+    }
+    44% {
+        background: -webkit-radial-gradient(transparent 44%, rgba(255, 255, 255, 1) 45%);
+        background: -moz-radial-gradient(transparent 44%, rgba(255, 255, 255, 1) 45%);
+        background: -ms-radial-gradient(transparent 44%, rgba(255, 255, 255, 1) 45%);
+        background: -o-radial-gradient(transparent 44%, rgba(255, 255, 255, 1) 45%);
+        background: radial-gradient(transparent 44%, rgba(255, 255, 255, 1) 45%);
+    }
+    45% {
+        background: -webkit-radial-gradient(transparent 45%, rgba(255, 255, 255, 1) 46%);
+        background: -moz-radial-gradient(transparent 45%, rgba(255, 255, 255, 1) 46%);
+        background: -ms-radial-gradient(transparent 45%, rgba(255, 255, 255, 1) 46%);
+        background: -o-radial-gradient(transparent 45%, rgba(255, 255, 255, 1) 46%);
+        background: radial-gradient(transparent 45%, rgba(255, 255, 255, 1) 46%);
+    }
+    46% {
+        background: -webkit-radial-gradient(transparent 46%, rgba(255, 255, 255, 1) 47%);
+        background: -moz-radial-gradient(transparent 46%, rgba(255, 255, 255, 1) 47%);
+        background: -ms-radial-gradient(transparent 46%, rgba(255, 255, 255, 1) 47%);
+        background: -o-radial-gradient(transparent 46%, rgba(255, 255, 255, 1) 47%);
+        background: radial-gradient(transparent 46%, rgba(255, 255, 255, 1) 47%);
+    }
+    47% {
+        background: -webkit-radial-gradient(transparent 47%, rgba(255, 255, 255, 1) 48%);
+        background: -moz-radial-gradient(transparent 47%, rgba(255, 255, 255, 1) 48%);
+        background: -ms-radial-gradient(transparent 47%, rgba(255, 255, 255, 1) 48%);
+        background: -o-radial-gradient(transparent 47%, rgba(255, 255, 255, 1) 48%);
+        background: radial-gradient(transparent 47%, rgba(255, 255, 255, 1) 48%);
+    }
+    48% {
+        background: -webkit-radial-gradient(transparent 48%, rgba(255, 255, 255, 1) 49%);
+        background: -moz-radial-gradient(transparent 48%, rgba(255, 255, 255, 1) 49%);
+        background: -ms-radial-gradient(transparent 48%, rgba(255, 255, 255, 1) 49%);
+        background: -o-radial-gradient(transparent 48%, rgba(255, 255, 255, 1) 49%);
+        background: radial-gradient(transparent 48%, rgba(255, 255, 255, 1) 49%);
+    }
+    49% {
+        background: -webkit-radial-gradient(transparent 49%, rgba(255, 255, 255, 1) 50%);
+        background: -moz-radial-gradient(transparent 49%, rgba(255, 255, 255, 1) 50%);
+        background: -ms-radial-gradient(transparent 49%, rgba(255, 255, 255, 1) 50%);
+        background: -o-radial-gradient(transparent 49%, rgba(255, 255, 255, 1) 50%);
+        background: radial-gradient(transparent 49%, rgba(255, 255, 255, 1) 50%);
+    }
+    50% {
+        background: -webkit-radial-gradient(transparent 50%, rgba(255, 255, 255, 1) 51%);
+        background: -moz-radial-gradient(transparent 50%, rgba(255, 255, 255, 1) 51%);
+        background: -ms-radial-gradient(transparent 50%, rgba(255, 255, 255, 1) 51%);
+        background: -o-radial-gradient(transparent 50%, rgba(255, 255, 255, 1) 51%);
+        background: radial-gradient(transparent 50%, rgba(255, 255, 255, 1) 51%);
+    }
+    51% {
+        background: -webkit-radial-gradient(transparent 51%, rgba(255, 255, 255, 1) 52%);
+        background: -moz-radial-gradient(transparent 51%, rgba(255, 255, 255, 1) 52%);
+        background: -ms-radial-gradient(transparent 51%, rgba(255, 255, 255, 1) 52%);
+        background: -o-radial-gradient(transparent 51%, rgba(255, 255, 255, 1) 52%);
+        background: radial-gradient(transparent 51%, rgba(255, 255, 255, 1) 52%);
+    }
+    52% {
+        background: -webkit-radial-gradient(transparent 52%, rgba(255, 255, 255, 1) 53%);
+        background: -moz-radial-gradient(transparent 52%, rgba(255, 255, 255, 1) 53%);
+        background: -ms-radial-gradient(transparent 52%, rgba(255, 255, 255, 1) 53%);
+        background: -o-radial-gradient(transparent 52%, rgba(255, 255, 255, 1) 53%);
+        background: radial-gradient(transparent 52%, rgba(255, 255, 255, 1) 53%);
+    }
+    53% {
+        background: -webkit-radial-gradient(transparent 53%, rgba(255, 255, 255, 1) 54%);
+        background: -moz-radial-gradient(transparent 53%, rgba(255, 255, 255, 1) 54%);
+        background: -ms-radial-gradient(transparent 53%, rgba(255, 255, 255, 1) 54%);
+        background: -o-radial-gradient(transparent 53%, rgba(255, 255, 255, 1) 54%);
+        background: radial-gradient(transparent 53%, rgba(255, 255, 255, 1) 54%);
+    }
+    54% {
+        background: -webkit-radial-gradient(transparent 54%, rgba(255, 255, 255, 1) 55%);
+        background: -moz-radial-gradient(transparent 54%, rgba(255, 255, 255, 1) 55%);
+        background: -ms-radial-gradient(transparent 54%, rgba(255, 255, 255, 1) 55%);
+        background: -o-radial-gradient(transparent 54%, rgba(255, 255, 255, 1) 55%);
+        background: radial-gradient(transparent 54%, rgba(255, 255, 255, 1) 55%);
+    }
+    55% {
+        background: -webkit-radial-gradient(transparent 55%, rgba(255, 255, 255, 1) 56%);
+        background: -moz-radial-gradient(transparent 55%, rgba(255, 255, 255, 1) 56%);
+        background: -ms-radial-gradient(transparent 55%, rgba(255, 255, 255, 1) 56%);
+        background: -o-radial-gradient(transparent 55%, rgba(255, 255, 255, 1) 56%);
+        background: radial-gradient(transparent 55%, rgba(255, 255, 255, 1) 56%);
+    }
+    56% {
+        background: -webkit-radial-gradient(transparent 56%, rgba(255, 255, 255, 1) 57%);
+        background: -moz-radial-gradient(transparent 56%, rgba(255, 255, 255, 1) 57%);
+        background: -ms-radial-gradient(transparent 56%, rgba(255, 255, 255, 1) 57%);
+        background: -o-radial-gradient(transparent 56%, rgba(255, 255, 255, 1) 57%);
+        background: radial-gradient(transparent 56%, rgba(255, 255, 255, 1) 57%);
+    }
+    57% {
+        background: -webkit-radial-gradient(transparent 57%, rgba(255, 255, 255, 1) 58%);
+        background: -moz-radial-gradient(transparent 57%, rgba(255, 255, 255, 1) 58%);
+        background: -ms-radial-gradient(transparent 57%, rgba(255, 255, 255, 1) 58%);
+        background: -o-radial-gradient(transparent 57%, rgba(255, 255, 255, 1) 58%);
+        background: radial-gradient(transparent 57%, rgba(255, 255, 255, 1) 58%);
+    }
+    58% {
+        background: -webkit-radial-gradient(transparent 58%, rgba(255, 255, 255, 1) 59%);
+        background: -moz-radial-gradient(transparent 58%, rgba(255, 255, 255, 1) 59%);
+        background: -ms-radial-gradient(transparent 58%, rgba(255, 255, 255, 1) 59%);
+        background: -o-radial-gradient(transparent 58%, rgba(255, 255, 255, 1) 59%);
+        background: radial-gradient(transparent 58%, rgba(255, 255, 255, 1) 59%);
+    }
+    59% {
+        background: -webkit-radial-gradient(transparent 59%, rgba(255, 255, 255, 1) 60%);
+        background: -moz-radial-gradient(transparent 59%, rgba(255, 255, 255, 1) 60%);
+        background: -ms-radial-gradient(transparent 59%, rgba(255, 255, 255, 1) 60%);
+        background: -o-radial-gradient(transparent 59%, rgba(255, 255, 255, 1) 60%);
+        background: radial-gradient(transparent 59%, rgba(255, 255, 255, 1) 60%);
+    }
+    60% {
+        background: -webkit-radial-gradient(transparent 60%, rgba(255, 255, 255, 1) 61%);
+        background: -moz-radial-gradient(transparent 60%, rgba(255, 255, 255, 1) 61%);
+        background: -ms-radial-gradient(transparent 60%, rgba(255, 255, 255, 1) 61%);
+        background: -o-radial-gradient(transparent 60%, rgba(255, 255, 255, 1) 61%);
+        background: radial-gradient(transparent 60%, rgba(255, 255, 255, 1) 61%);
+    }
+    61% {
+        background: -webkit-radial-gradient(transparent 61%, rgba(255, 255, 255, 1) 62%);
+        background: -moz-radial-gradient(transparent 61%, rgba(255, 255, 255, 1) 62%);
+        background: -ms-radial-gradient(transparent 61%, rgba(255, 255, 255, 1) 62%);
+        background: -o-radial-gradient(transparent 61%, rgba(255, 255, 255, 1) 62%);
+        background: radial-gradient(transparent 61%, rgba(255, 255, 255, 1) 62%);
+    }
+    62% {
+        background: -webkit-radial-gradient(transparent 62%, rgba(255, 255, 255, 1) 63%);
+        background: -moz-radial-gradient(transparent 62%, rgba(255, 255, 255, 1) 63%);
+        background: -ms-radial-gradient(transparent 62%, rgba(255, 255, 255, 1) 63%);
+        background: -o-radial-gradient(transparent 62%, rgba(255, 255, 255, 1) 63%);
+        background: radial-gradient(transparent 62%, rgba(255, 255, 255, 1) 63%);
+    }
+    63% {
+        background: -webkit-radial-gradient(transparent 63%, rgba(255, 255, 255, 1) 64%);
+        background: -moz-radial-gradient(transparent 63%, rgba(255, 255, 255, 1) 64%);
+        background: -ms-radial-gradient(transparent 63%, rgba(255, 255, 255, 1) 64%);
+        background: -o-radial-gradient(transparent 63%, rgba(255, 255, 255, 1) 64%);
+        background: radial-gradient(transparent 63%, rgba(255, 255, 255, 1) 64%);
+    }
+    64% {
+        background: -webkit-radial-gradient(transparent 64%, rgba(255, 255, 255, 1) 65%);
+        background: -moz-radial-gradient(transparent 64%, rgba(255, 255, 255, 1) 65%);
+        background: -ms-radial-gradient(transparent 64%, rgba(255, 255, 255, 1) 65%);
+        background: -o-radial-gradient(transparent 64%, rgba(255, 255, 255, 1) 65%);
+        background: radial-gradient(transparent 64%, rgba(255, 255, 255, 1) 65%);
+    }
+    65% {
+        background: -webkit-radial-gradient(transparent 65%, rgba(255, 255, 255, 1) 66%);
+        background: -moz-radial-gradient(transparent 65%, rgba(255, 255, 255, 1) 66%);
+        background: -ms-radial-gradient(transparent 65%, rgba(255, 255, 255, 1) 66%);
+        background: -o-radial-gradient(transparent 65%, rgba(255, 255, 255, 1) 66%);
+        background: radial-gradient(transparent 65%, rgba(255, 255, 255, 1) 66%);
+    }
+    66% {
+        background: -webkit-radial-gradient(transparent 66%, rgba(255, 255, 255, 1) 67%);
+        background: -moz-radial-gradient(transparent 66%, rgba(255, 255, 255, 1) 67%);
+        background: -ms-radial-gradient(transparent 66%, rgba(255, 255, 255, 1) 67%);
+        background: -o-radial-gradient(transparent 66%, rgba(255, 255, 255, 1) 67%);
+        background: radial-gradient(transparent 66%, rgba(255, 255, 255, 1) 67%);
+    }
+    67% {
+        background: -webkit-radial-gradient(transparent 67%, rgba(255, 255, 255, 1) 68%);
+        background: -moz-radial-gradient(transparent 67%, rgba(255, 255, 255, 1) 68%);
+        background: -ms-radial-gradient(transparent 67%, rgba(255, 255, 255, 1) 68%);
+        background: -o-radial-gradient(transparent 67%, rgba(255, 255, 255, 1) 68%);
+        background: radial-gradient(transparent 67%, rgba(255, 255, 255, 1) 68%);
+    }
+    68% {
+        background: -webkit-radial-gradient(transparent 68%, rgba(255, 255, 255, 1) 69%);
+        background: -moz-radial-gradient(transparent 68%, rgba(255, 255, 255, 1) 69%);
+        background: -ms-radial-gradient(transparent 68%, rgba(255, 255, 255, 1) 69%);
+        background: -o-radial-gradient(transparent 68%, rgba(255, 255, 255, 1) 69%);
+        background: radial-gradient(transparent 68%, rgba(255, 255, 255, 1) 69%);
+    }
+    69% {
+        background: -webkit-radial-gradient(transparent 69%, rgba(255, 255, 255, 1) 70%);
+        background: -moz-radial-gradient(transparent 69%, rgba(255, 255, 255, 1) 70%);
+        background: -ms-radial-gradient(transparent 69%, rgba(255, 255, 255, 1) 70%);
+        background: -o-radial-gradient(transparent 69%, rgba(255, 255, 255, 1) 70%);
+        background: radial-gradient(transparent 69%, rgba(255, 255, 255, 1) 70%);
+    }
+    70% {
+        background: -webkit-radial-gradient(transparent 70%, rgba(255, 255, 255, 1) 71%);
+        background: -moz-radial-gradient(transparent 70%, rgba(255, 255, 255, 1) 71%);
+        background: -ms-radial-gradient(transparent 70%, rgba(255, 255, 255, 1) 71%);
+        background: -o-radial-gradient(transparent 70%, rgba(255, 255, 255, 1) 71%);
+        background: radial-gradient(transparent 70%, rgba(255, 255, 255, 1) 71%);
+    }
+    71% {
+        background: -webkit-radial-gradient(transparent 71%, rgba(255, 255, 255, 1) 72%);
+        background: -moz-radial-gradient(transparent 71%, rgba(255, 255, 255, 1) 72%);
+        background: -ms-radial-gradient(transparent 71%, rgba(255, 255, 255, 1) 72%);
+        background: -o-radial-gradient(transparent 71%, rgba(255, 255, 255, 1) 72%);
+        background: radial-gradient(transparent 71%, rgba(255, 255, 255, 1) 72%);
+    }
+    72% {
+        background: -webkit-radial-gradient(transparent 72%, rgba(255, 255, 255, 1) 73%);
+        background: -moz-radial-gradient(transparent 72%, rgba(255, 255, 255, 1) 73%);
+        background: -ms-radial-gradient(transparent 72%, rgba(255, 255, 255, 1) 73%);
+        background: -o-radial-gradient(transparent 72%, rgba(255, 255, 255, 1) 73%);
+        background: radial-gradient(transparent 72%, rgba(255, 255, 255, 1) 73%);
+    }
+    73% {
+        background: -webkit-radial-gradient(transparent 73%, rgba(255, 255, 255, 1) 74%);
+        background: -moz-radial-gradient(transparent 73%, rgba(255, 255, 255, 1) 74%);
+        background: -ms-radial-gradient(transparent 73%, rgba(255, 255, 255, 1) 74%);
+        background: -o-radial-gradient(transparent 73%, rgba(255, 255, 255, 1) 74%);
+        background: radial-gradient(transparent 73%, rgba(255, 255, 255, 1) 74%);
+    }
+    74% {
+        background: -webkit-radial-gradient(transparent 74%, rgba(255, 255, 255, 1) 75%);
+        background: -moz-radial-gradient(transparent 74%, rgba(255, 255, 255, 1) 75%);
+        background: -ms-radial-gradient(transparent 74%, rgba(255, 255, 255, 1) 75%);
+        background: -o-radial-gradient(transparent 74%, rgba(255, 255, 255, 1) 75%);
+        background: radial-gradient(transparent 74%, rgba(255, 255, 255, 1) 75%);
+    }
+    75% {
+        background: -webkit-radial-gradient(transparent 75%, rgba(255, 255, 255, 1) 76%);
+        background: -moz-radial-gradient(transparent 75%, rgba(255, 255, 255, 1) 76%);
+        background: -ms-radial-gradient(transparent 75%, rgba(255, 255, 255, 1) 76%);
+        background: -o-radial-gradient(transparent 75%, rgba(255, 255, 255, 1) 76%);
+        background: radial-gradient(transparent 75%, rgba(255, 255, 255, 1) 76%);
+    }
+    76% {
+        background: -webkit-radial-gradient(transparent 76%, rgba(255, 255, 255, 1) 77%);
+        background: -moz-radial-gradient(transparent 76%, rgba(255, 255, 255, 1) 77%);
+        background: -ms-radial-gradient(transparent 76%, rgba(255, 255, 255, 1) 77%);
+        background: -o-radial-gradient(transparent 76%, rgba(255, 255, 255, 1) 77%);
+        background: radial-gradient(transparent 76%, rgba(255, 255, 255, 1) 77%);
+    }
+    77% {
+        background: -webkit-radial-gradient(transparent 77%, rgba(255, 255, 255, 1) 78%);
+        background: -moz-radial-gradient(transparent 77%, rgba(255, 255, 255, 1) 78%);
+        background: -ms-radial-gradient(transparent 77%, rgba(255, 255, 255, 1) 78%);
+        background: -o-radial-gradient(transparent 77%, rgba(255, 255, 255, 1) 78%);
+        background: radial-gradient(transparent 77%, rgba(255, 255, 255, 1) 78%);
+    }
+    78% {
+        background: -webkit-radial-gradient(transparent 78%, rgba(255, 255, 255, 1) 79%);
+        background: -moz-radial-gradient(transparent 78%, rgba(255, 255, 255, 1) 79%);
+        background: -ms-radial-gradient(transparent 78%, rgba(255, 255, 255, 1) 79%);
+        background: -o-radial-gradient(transparent 78%, rgba(255, 255, 255, 1) 79%);
+        background: radial-gradient(transparent 78%, rgba(255, 255, 255, 1) 79%);
+    }
+    79% {
+        background: -webkit-radial-gradient(transparent 79%, rgba(255, 255, 255, 1) 80%);
+        background: -moz-radial-gradient(transparent 79%, rgba(255, 255, 255, 1) 80%);
+        background: -ms-radial-gradient(transparent 79%, rgba(255, 255, 255, 1) 80%);
+        background: -o-radial-gradient(transparent 79%, rgba(255, 255, 255, 1) 80%);
+        background: radial-gradient(transparent 79%, rgba(255, 255, 255, 1) 80%);
+    }
+    80% {
+        background: -webkit-radial-gradient(transparent 80%, rgba(255, 255, 255, 1) 81%);
+        background: -moz-radial-gradient(transparent 80%, rgba(255, 255, 255, 1) 81%);
+        background: -ms-radial-gradient(transparent 80%, rgba(255, 255, 255, 1) 81%);
+        background: -o-radial-gradient(transparent 80%, rgba(255, 255, 255, 1) 81%);
+        background: radial-gradient(transparent 80%, rgba(255, 255, 255, 1) 81%);
+    }
+    81% {
+        background: -webkit-radial-gradient(transparent 81%, rgba(255, 255, 255, 1) 82%);
+        background: -moz-radial-gradient(transparent 81%, rgba(255, 255, 255, 1) 82%);
+        background: -ms-radial-gradient(transparent 81%, rgba(255, 255, 255, 1) 82%);
+        background: -o-radial-gradient(transparent 81%, rgba(255, 255, 255, 1) 82%);
+        background: radial-gradient(transparent 81%, rgba(255, 255, 255, 1) 82%);
+    }
+    82% {
+        background: -webkit-radial-gradient(transparent 82%, rgba(255, 255, 255, 1) 83%);
+        background: -moz-radial-gradient(transparent 82%, rgba(255, 255, 255, 1) 83%);
+        background: -ms-radial-gradient(transparent 82%, rgba(255, 255, 255, 1) 83%);
+        background: -o-radial-gradient(transparent 82%, rgba(255, 255, 255, 1) 83%);
+        background: radial-gradient(transparent 82%, rgba(255, 255, 255, 1) 83%);
+    }
+    83% {
+        background: -webkit-radial-gradient(transparent 83%, rgba(255, 255, 255, 1) 84%);
+        background: -moz-radial-gradient(transparent 83%, rgba(255, 255, 255, 1) 84%);
+        background: -ms-radial-gradient(transparent 83%, rgba(255, 255, 255, 1) 84%);
+        background: -o-radial-gradient(transparent 83%, rgba(255, 255, 255, 1) 84%);
+        background: radial-gradient(transparent 83%, rgba(255, 255, 255, 1) 84%);
+    }
+    84% {
+        background: -webkit-radial-gradient(transparent 84%, rgba(255, 255, 255, 1) 85%);
+        background: -moz-radial-gradient(transparent 84%, rgba(255, 255, 255, 1) 85%);
+        background: -ms-radial-gradient(transparent 84%, rgba(255, 255, 255, 1) 85%);
+        background: -o-radial-gradient(transparent 84%, rgba(255, 255, 255, 1) 85%);
+        background: radial-gradient(transparent 84%, rgba(255, 255, 255, 1) 85%);
+    }
+    85% {
+        background: -webkit-radial-gradient(transparent 85%, rgba(255, 255, 255, 1) 86%);
+        background: -moz-radial-gradient(transparent 85%, rgba(255, 255, 255, 1) 86%);
+        background: -ms-radial-gradient(transparent 85%, rgba(255, 255, 255, 1) 86%);
+        background: -o-radial-gradient(transparent 85%, rgba(255, 255, 255, 1) 86%);
+        background: radial-gradient(transparent 85%, rgba(255, 255, 255, 1) 86%);
+    }
+    86% {
+        background: -webkit-radial-gradient(transparent 86%, rgba(255, 255, 255, 1) 87%);
+        background: -moz-radial-gradient(transparent 86%, rgba(255, 255, 255, 1) 87%);
+        background: -ms-radial-gradient(transparent 86%, rgba(255, 255, 255, 1) 87%);
+        background: -o-radial-gradient(transparent 86%, rgba(255, 255, 255, 1) 87%);
+        background: radial-gradient(transparent 86%, rgba(255, 255, 255, 1) 87%);
+    }
+    87% {
+        background: -webkit-radial-gradient(transparent 87%, rgba(255, 255, 255, 1) 88%);
+        background: -moz-radial-gradient(transparent 87%, rgba(255, 255, 255, 1) 88%);
+        background: -ms-radial-gradient(transparent 87%, rgba(255, 255, 255, 1) 88%);
+        background: -o-radial-gradient(transparent 87%, rgba(255, 255, 255, 1) 88%);
+        background: radial-gradient(transparent 87%, rgba(255, 255, 255, 1) 88%);
+    }
+    88% {
+        background: -webkit-radial-gradient(transparent 88%, rgba(255, 255, 255, 1) 89%);
+        background: -moz-radial-gradient(transparent 88%, rgba(255, 255, 255, 1) 89%);
+        background: -ms-radial-gradient(transparent 88%, rgba(255, 255, 255, 1) 89%);
+        background: -o-radial-gradient(transparent 88%, rgba(255, 255, 255, 1) 89%);
+        background: radial-gradient(transparent 88%, rgba(255, 255, 255, 1) 89%);
+    }
+    89% {
+        background: -webkit-radial-gradient(transparent 89%, rgba(255, 255, 255, 1) 90%);
+        background: -moz-radial-gradient(transparent 89%, rgba(255, 255, 255, 1) 90%);
+        background: -ms-radial-gradient(transparent 89%, rgba(255, 255, 255, 1) 90%);
+        background: -o-radial-gradient(transparent 89%, rgba(255, 255, 255, 1) 90%);
+        background: radial-gradient(transparent 89%, rgba(255, 255, 255, 1) 90%);
+    }
+    90% {
+        background: -webkit-radial-gradient(transparent 90%, rgba(255, 255, 255, 1) 91%);
+        background: -moz-radial-gradient(transparent 90%, rgba(255, 255, 255, 1) 91%);
+        background: -ms-radial-gradient(transparent 90%, rgba(255, 255, 255, 1) 91%);
+        background: -o-radial-gradient(transparent 90%, rgba(255, 255, 255, 1) 91%);
+        background: radial-gradient(transparent 90%, rgba(255, 255, 255, 1) 91%);
+    }
+    91% {
+        background: -webkit-radial-gradient(transparent 91%, rgba(255, 255, 255, 1) 92%);
+        background: -moz-radial-gradient(transparent 91%, rgba(255, 255, 255, 1) 92%);
+        background: -ms-radial-gradient(transparent 91%, rgba(255, 255, 255, 1) 92%);
+        background: -o-radial-gradient(transparent 91%, rgba(255, 255, 255, 1) 92%);
+        background: radial-gradient(transparent 91%, rgba(255, 255, 255, 1) 92%);
+    }
+    92% {
+        background: -webkit-radial-gradient(transparent 92%, rgba(255, 255, 255, 1) 93%);
+        background: -moz-radial-gradient(transparent 92%, rgba(255, 255, 255, 1) 93%);
+        background: -ms-radial-gradient(transparent 92%, rgba(255, 255, 255, 1) 93%);
+        background: -o-radial-gradient(transparent 92%, rgba(255, 255, 255, 1) 93%);
+        background: radial-gradient(transparent 92%, rgba(255, 255, 255, 1) 93%);
+    }
+    93% {
+        background: -webkit-radial-gradient(transparent 93%, rgba(255, 255, 255, 1) 94%);
+        background: -moz-radial-gradient(transparent 93%, rgba(255, 255, 255, 1) 94%);
+        background: -ms-radial-gradient(transparent 93%, rgba(255, 255, 255, 1) 94%);
+        background: -o-radial-gradient(transparent 93%, rgba(255, 255, 255, 1) 94%);
+        background: radial-gradient(transparent 93%, rgba(255, 255, 255, 1) 94%);
+    }
+    94% {
+        background: -webkit-radial-gradient(transparent 94%, rgba(255, 255, 255, 1) 95%);
+        background: -moz-radial-gradient(transparent 94%, rgba(255, 255, 255, 1) 95%);
+        background: -ms-radial-gradient(transparent 94%, rgba(255, 255, 255, 1) 95%);
+        background: -o-radial-gradient(transparent 94%, rgba(255, 255, 255, 1) 95%);
+        background: radial-gradient(transparent 94%, rgba(255, 255, 255, 1) 95%);
+    }
+    95% {
+        background: -webkit-radial-gradient(transparent 95%, rgba(255, 255, 255, 1) 96%);
+        background: -moz-radial-gradient(transparent 95%, rgba(255, 255, 255, 1) 96%);
+        background: -ms-radial-gradient(transparent 95%, rgba(255, 255, 255, 1) 96%);
+        background: -o-radial-gradient(transparent 95%, rgba(255, 255, 255, 1) 96%);
+        background: radial-gradient(transparent 95%, rgba(255, 255, 255, 1) 96%);
+    }
+    96% {
+        background: -webkit-radial-gradient(transparent 96%, rgba(255, 255, 255, 1) 97%);
+        background: -moz-radial-gradient(transparent 96%, rgba(255, 255, 255, 1) 97%);
+        background: -ms-radial-gradient(transparent 96%, rgba(255, 255, 255, 1) 97%);
+        background: -o-radial-gradient(transparent 96%, rgba(255, 255, 255, 1) 97%);
+        background: radial-gradient(transparent 96%, rgba(255, 255, 255, 1) 97%);
+    }
+    97% {
+        background: -webkit-radial-gradient(transparent 97%, rgba(255, 255, 255, 1) 98%);
+        background: -moz-radial-gradient(transparent 97%, rgba(255, 255, 255, 1) 98%);
+        background: -ms-radial-gradient(transparent 97%, rgba(255, 255, 255, 1) 98%);
+        background: -o-radial-gradient(transparent 97%, rgba(255, 255, 255, 1) 98%);
+        background: radial-gradient(transparent 97%, rgba(255, 255, 255, 1) 98%);
+    }
+    98% {
+        background: -webkit-radial-gradient(transparent 98%, rgba(255, 255, 255, 1) 99%);
+        background: -moz-radial-gradient(transparent 98%, rgba(255, 255, 255, 1) 99%);
+        background: -ms-radial-gradient(transparent 98%, rgba(255, 255, 255, 1) 99%);
+        background: -o-radial-gradient(transparent 98%, rgba(255, 255, 255, 1) 99%);
+        background: radial-gradient(transparent 98%, rgba(255, 255, 255, 1) 99%);
+    }
+    99% {
+        background: -webkit-radial-gradient(transparent 99%, rgba(255, 255, 255, 1) 100%);
+        background: -moz-radial-gradient(transparent 99%, rgba(255, 255, 255, 1) 100%);
+        background: -ms-radial-gradient(transparent 99%, rgba(255, 255, 255, 1) 100%);
+        background: -o-radial-gradient(transparent 99%, rgba(255, 255, 255, 1) 100%);
+        background: radial-gradient(transparent 99%, rgba(255, 255, 255, 1) 100%);
+    }
+    100% {
+        background: -webkit-radial-gradient(transparent 99%, rgba(255, 255, 255, 1) 100%);
+        background: -moz-radial-gradient(transparent 99%, rgba(255, 255, 255, 1) 100%);
+        background: -ms-radial-gradient(transparent 99%, rgba(255, 255, 255, 1) 100%);
+        background: -o-radial-gradient(transparent 99%, rgba(255, 255, 255, 1) 100%);
+        background: radial-gradient(transparent 99%, rgba(255, 255, 255, 1) 100%);
+    }
+}
+.pilares .img_pilares.efecto_img{
+	top: -105px;
+	transition-delay:2s;
+}
+.pilares .img_pilares{
+	position: absolute;
+	width: 850px;
+	height: 850px;
+	top: -140px;
+	transition: all .8s ease;
+	border-radius: 50%;
+	background-position: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.intervencion{
+	max-width: 1400px;
+	margin: 100px auto;
+	background: url(images/intervencion/bolivia.svg);
+	background-repeat: no-repeat;
+	background-position: 55% center;
+}
+.intervencion .section-title{
+	margin-bottom: 40px;
+}
+.intervencion .section-title h1{
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.intervencion p{
+	color: #333333;
+	text-align: justify;
+	font-size: 19px;
+	line-height: 29px;
+}
+.intervencion ul.zonas{
+	position: absolute;
+	margin-top: 20px;
+	right: -70px;
+}
+.intervencion ul.zonas li img, .intervencion ul.zonas li p, .intervencion ul.zonas li svg{
+	display: inline;
+}
+.intervencion ul.zonas li p{
+	padding-left: 10px;
+}
+.intervencion ul.zonas li{
+	padding-bottom: 15px;
+}
+.intervencion ul.zonas li svg{
+	max-height: 40px;
+	width: auto;
+	vertical-align: middle;	
+}
+.intervencion dl.proyectos{
+	margin: 20px 0;
+	padding-top: 45%;
+}
+.intervencion dl.proyectos dt,.intervencion dl.proyectos dd{
+	font-family: "TradeGothic"!important;
+	font-size: 19px;
+	padding-bottom: 3px;
+}
+.intervencion dl.proyectos dt{
+	width: auto;
+}
+.intervencion dl.proyectos dd{
+	margin-left: 50px;
+}
+.intervencion dl.proyectos dt.p span{
+	color: #da291c;
+}
+.intervencion dl.proyectos dt.r span{
+	color: #ff5d00;
+}
+.intervencion dl.proyectos dt.a span{
+	color: #009ca6;
+}
+.intervencion a.btnS{
+	padding: 10px 40px;
+	border-radius: 5px;
+	color: #fff;
+	background: #DA291C;
+	text-transform: uppercase;
+	position: absolute;
+	right: -25px;
+}
+.intervencion .contenido_inter{
+	padding-bottom: 40px;
+}
+.intervencion .contenido_inter.zona{
+	padding-bottom: 190px
+}
+.unete_padre{
+	max-width: 1400px;
+	margin: 150px auto;
+}
+.unete{
+	background: #f1f0ea;
+	padding: 80px;
+}
+.unete .section-title h1{
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 55px;
+	margin-right: -20%;
+	z-index: 10;
+}
+.unete .section-title h1 span{
+	color: #333333;
+	padding: 0 10px;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 8px 0 0 #fff, -8px 0 0 #fff;
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
+}
+.unete .section-title h1:after{
+	display: none;
+}
+.unete .contenido{
+	text-align: center;
+}
+.unete .contenido p{
+	text-align: center;
+	color: #333333;
+	font-size: 19px;
+	line-height: 29px;
+	margin-bottom: 20px;
+}
+.unete .contenido p.unete_comilla{
+	color: #DA291C;
+	font-size: 100px;
+	content: open-quote;
+	font-family: 'FootLight'!important;
+	margin-top: -6%;
+	margin-bottom: 0;
+}
+.unete .contenido p.unete_texto{
+	font-family: 'GillSansBoldSemi'!important;
+	font-size: 22px;
+	margin: 0 70px 20px;
+	margin-top: -10px;
+	margin-bottom: 0;
+}
+.unete .contenido p.unete_texto:before{
+	content: '\201C';
+}
+.unete .contenido p.unete_texto:after{
+	content: '\201D';
+}
+.unete .contenido ul{
+	text-align: center;
+	color: #333333;
+	font-size: 19px;
+	line-height: 29px;
+	margin-bottom: 20px;
+}
+.unete .contenido ul li a{
+	color: #DA291C;
+}
+.unete a.btnS{
+	padding: 10px 40px;
+	border-radius: 5px;
+	color: #fff;
+	background: #DA291C;
+	text-transform: uppercase;
+}
+.unete .imagen{
+	position: absolute;
+	border-radius: 50%;
+	top: -150px;
+}
+.unete .imagen img{
+	border-radius: 50%;
+}
+.causa{
+	width: 100vw;
+	height: 100vh;
+	background: url(images/causa/unete.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.causa .section-title h1,.causa .section-title{
+	margin-bottom: 30px;
+}
+.causa .section-title h1{
+	text-transform: uppercase;
+	top: -5px;
+}
+.causa .section-title h1:after{
+	left: 48.5%;
+}
+.causa p{
+	width: max-content;
+	width: -moz-max-content;
+	width: -ms-max-content;
+	margin: auto;
+	color: #333333;
+	font-size: 19px;
+	line-height: 29px;
+	text-align: center;
+}
+.causa .botones{
+	position: absolute;
+	width: 100vw;
+	bottom: 1%;
+}
+.causa img, .causa h3, .causa svg{
+	display: inline;
+}
+.causa h3{
+	text-transform: uppercase;
+}
+.causa img, .causa svg{
+	width: 25%;
+	height: auto;
+	margin-top: -2%;
+	margin-right: 5%;
+}
+.causa svg{
+	transform: translateY(35%);
+	transition: all .5s ease;
+}
+.causa svg circle{
+	fill:#DA291D;
+}
+.causa svg path, .causa svg g circle{
+	fill:#fff;
+}
+.causa a{
+	color: inherit;
+	margin: 20px 0;
+	white-space: nowrap;
+}
+.grecaptcha-badge {
+	display: none !important;
+}
+.causa a:hover svg{
+	transform: translateY(35%)scale(1.2);
+}
+.causa a:hover svg circle{
+	fill:#fff;
+}
+.causa a:hover svg path, .causa a:hover svg g circle{
+	fill:#DA291D;
+}
+.blog-section.listado_ini{
+	padding: 80px 0 40px 0;
+}
+.subscribe .form-horizontal{
+	margin-bottom: 30px;
+}
+.blog-section.listado_ini .default-blog-news{
+	margin-bottom: 0;
+	background: #fff;
+}
+.inner-banner.has-base-color-overlay .col-md-5{
+	padding-right: 0;
+	padding-left: 0;
+}
+.inner-banner h1{
+	font-family: 'TradeGothic'!important;
+	position: absolute;
+	left: -100px;
+	width: 28%;
+	text-align: right;
+}
+.inner-banner h1 span{
+	background: #fff;
+	color: #333;
+	padding: 3px;
+	box-shadow: 8px 0 0 #fff, -8px 0 0 #fff;
+	-webkit-box-decoration-break:clone;
+	box-decoration-break:clone;
+	border-radius: .08em;
+}
+.scroll-top{
+	background: #DA291C;
+}
+.mobile-menu, .mobile-menu>li>ul, .mobile-menu>li>ul>li>ul{
+	background: #DA291C;
+}
+.about.sec-padd-top.about_contenedor{
+	margin-right: 150px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.about.sec-padd-top.about_contenedor .content{
+	width: 65%;
+}
+.about-carousel.owl-carousel .owl-stage-outer{
+	overflow: hidden;
+	padding-left: 150px;
+}
+/*.about-carousel.owl-carousel .owl-item{
+	visibility: hidden;
+}
+.about-carousel.owl-carousel .owl-item.active{
+	visibility: visible;
+}*/
+.about-carousel .owl-nav{
+	bottom: 100%;
+	top: inherit;
+	left: inherit;
+	right: 25%;
+}
+.owl-nav [class*=owl-]:hover{
+	color: #DA291C;
+	border: 1px solid #DA291C;
+}
+.tp-bannertimer{
+	display: block;
+}
+ul.list-inline.social  li.compartir_whatsapp{
+	display: none!important;
+}
+.rev_slider_wrapper .tparrows{
+	border:none;
+}
+.tparrows:before{
+	font-size: 40px;
+}
+.page_int.blog-section .post-area:before{
+	display: none;
+}
+.page_int.blog-section .contenido{
+	margin: 40px 0;
+	padding-right: 2em;
+	padding-left: 2em;
+	background: #f7f6f3;
+	border-radius: 4px;
+}
+.page_int.blog-section .contenido.galeria_videos{
+	background: none;
+}
+.page_int.blog-section .contenido p{
+	color: #222221;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+.page_int.blog-section .contenido p:last-child, .page_int.blog-section .contenido blockquote:last-child, .page_int.blog-section .contenido img:last-child, .page_int.blog-section .contenido .text:last-child{
+	margin-bottom: 0px;
+}
+.page_int.blog-section .contenido ul{
+	list-style: disc;
+	padding-left: 40px;
+}
+.page_int.blog-section .contenido ul.key-benefit-list{
+	list-style: none;
+}
+.page_int.blog-section .contenido ul li, .page_int.blog-section .contenido ol li{
+	margin-bottom: 15px;
+	text-align: justify;
+}
+.page_int.blog-section .section-title h1,.section-title h2,.section-title h3,.section-title h4,.section-title h5{
+	font-family: 'TradeGothic'!important;
+	margin-bottom: 0!important;
+	padding: 0;
+}
+.page_int.blog-section .section-title h3:after{
+	display: none;
+}
+.page_int.blog-section blockquote{
+	font-family: "GillSans"!important;
+}
+.breadcumb-wrapper ul, .breadcumb-wrapper li, .breadcumb-wrapper ul.link-list li a{
+	font-size: 16px;
+}
+.inner-banner .box{
+	height: 52vh;
+	max-height: 500px;
+}
+.sec-padd{
+	padding: 40px 0;
+}
+.sec-padd-top{
+	padding-top: 40px;
+}
+.galeria_videos .share-box{
+	background: transparent;
+	color: #222222;
+}
+.galeria_videos .share-box .post-meta{
+	padding-top: 11px;
+}
+.galeria_videos .share-box .pull-right span i{
+	color: #DA291C;
+}
+.galeria_videos .lower-content .content{
+	padding-top: 25px;
+}
+.galeria_videos .lower-content .post-meta{
+	font-size: 14px;
+	color: #848484;
+	text-transform: uppercase;
+}
+.galeria_videos iframe{
+	height: 450px;
+}
+.pagination>li>a, .pagination>li>span{
+	width: 55px;
+	font-size: 18px;
+	font-family: 'GillSans';
+	color: #222221;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span.current, .pagination>li>span:focus, .pagination>li>span:hover{
+	color: #fff!important;
+	background: #DA291C!important;
+}
+.sidebar-widget .sidebar_social ul li:before{
+	display: none;
+}
+.sidebar-widget .sidebar_social ul li{
+	border: none;
+	margin: 0 10px;
+}
+.sidebar-widget .sidebar_social ul li a{
+	padding-left: 0;
+	text-align: center;
+}
+.sidebar-widget .sidebar_social ul li a i.fa_contact{
+	font-size: 20px;
+	width: 48px;
+	height: 48px;
+	line-height: 43px;
+}
+.blog-single-post .author-comment{
+	margin-left: 0;
+}
+.blog-single-post .author img{
+	position: static;
+}
+.share-box .pull-right span{
+	margin-right: 10px;
+}
+.blog-single-post.classic-blog-news{
+	margin-bottom: 50px;
+}
+.publicaciones_listado .default-blog-news{
+	border: none;
+}
+.publicaciones_listado .default-blog-news figure, .publicaciones_listado .default-blog-news .img-holder{
+	line-height: 0;
+}
+.publicaciones_listado .default-blog-news .content .link{
+	margin-top: 17px;
+	text-align: right;
+}
+.publicaciones_listado .default-blog-news .share-box{
+	margin-top: 0;
+	padding-top: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 14px;
+}
+.publicaciones_listado .default-blog-news .img-holder img{
+	max-width: 270px;
+	min-height: 383px;
+}
+.publicaciones_listado.nota_prensa .default-blog-news .img-holder img{
+	max-width: none;
+	min-height: auto;
+}
+.publicaciones_listado.nota_prensa .default-blog-news .lower-content .content{
+	padding: 36px 20px 31px;
+	max-height: 270px;
+	overflow: hidden;
+}
+.publicaciones_listado.publicacion_interna .content{
+	padding-left: 0;
+	padding-right: 0;
+}
+.publicaciones_listado.publicacion_interna .default-blog-news .share-box{
+	margin-left: 0;
+	margin-right: 0;
+}
+.classic-blog-news .lower-content .thm-btn.style-2{
+	color: #fff;
+}
+.short_pagina p{
+	margin-bottom: 20px;
+}
+.section-title h3:after{
+	display: none;
+}
+.contact-us{
+	margin-bottom: 0;
+}
+.home-google-map #contact-google-map{
+	height: 665px;
+}
+input, textarea, .thm-btn{
+	font-family: 'GillSans';
+	font-weight: normal;
+}
+.contact-us .default-form-area{
+	padding-bottom: 0;
+}
+.thm-btn{
+	background: #DA291C;
+	border: 1px solid #DA291C;
+	border-radius: 0.2em;
+}
+.thm-btn:hover{
+	background: #DA291C;
+	color: #fff;
+}
+.contact-us .owl-nav{
+	left: auto;
+	right: 0px;
+}
+.default-cinfo .contact-infos li+li{
+	border-top: 1px solid #fff;
+}
+.contact-us{
+	background: #fff;
+}
+.contact-us .social-icon{
+	text-align: right;
+}
+.default-cinfo li .text-box p strong{
+	font-family: 'GillSansBold';
+}
+.default-blog-news{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+.page_int.blog-section .contenido .section-title,.page_int.blog-section .section-title{
+	margin-bottom: 30px;
+}
+.page_int.blog-section .contenido a, .page_int.blog-section .contenido a:hover{
+	color: #DA291C!important;
+}
+.page_int.blog-section .contenido ul.pagination a{
+	color: inherit!important;
+}
+.page_int.blog-section .contenido ul.pagination a:hover{
+	color: #fff!important;
+}
+.page_int.blog-section .contenido .share-box .social a{
+	color: #BCBCBC!important;
+}
+.page_int.blog-section .contenido .share-box .social a:hover{
+	color: #fff!important;	
+}
+.page_int.blog-section .contenido .publicacion_interna .content a.thm-btn, .page_int.blog-section .contenido .publicacion_interna .content a.thm-btn:hover{
+	color: #fff!important;
+}
+.img-box{
+	text-align: center;
+}
+.historias .img-box a{
+	position: relative;
+}
+.historias .img-box:hover a:before{
+	opacity: 1;
+}
+.historias .img-box a:before{
+	position: absolute;
+	opacity: 0;
+	border-radius: 50%;
+	content: '\e924';
+	font-family: icomoon;
+	left: 0;
+	top: 0;
+	font-size: 30px;
+	align-items: center;
+	display: flex;
+	color: #fff;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	background: rgba(37, 39, 46, 0.9);
+	transition: all .5s ease;
+}
+.publicacion_interna .default-blog-news{
+	margin-bottom: 0;
+}
+.inner-banner.page_int_titulo h1{
+	position: static;
+	left: auto;
+	width: auto;
+	text-align: left;
+	display: block;
+	line-height: 1.05;
+}
+.embajadores{
+	padding-bottom: 15px; 
+	height: 200px;
+	display: flex;
+	align-items: center;
+}
+.embajadores img{
+	max-height: 100%;
+	width: auto;
+	margin: auto;
+}
+.default-blog-news.resumen_pages{
+	box-shadow: none;
+	border: none;
+	margin-bottom: 90px;
+}
+.default-blog-news.resumen_pages figure{
+	text-align: center;
+}
+.default-blog-news.resumen_pages .img-holder{
+	border-radius: 50%;
+	max-width: 220px;
+}
+.default-blog-news.resumen_pages i{
+	color: #DA291C;
+}
+.default-blog-news.resumen_pages h4{
+	text-transform: uppercase;
+}
+.default-blog-news.resumen_pages .lower-content .content{
+	padding-bottom: 0px;
+}
+.default-blog-news.resumen_pages .lower-content h4 a{
+	margin-bottom: 0px;
+}
+.blog-section .post-area:before{
+	display: none;
+}
+.section-title{
+	margin-bottom: 40px;
+}
+.our-team .text{
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+.our-team .item{
+	margin-bottom: 20px;
+}
+.our-team .item .content{
+	padding-top: 5%;
+}
+.our-team .text{
+	margin-bottom: 0;
+}
+.page_int.blog-section .contenido .our-team .text p{
+	text-align: center;
+}
+.our-team .img-box img{
+	border-radius: 50%;
+}
+.classic-blog-news .lower-content .text p{
+	text-align: justify;
+}
+.contact-us .default-cinfo{
+	background: linear-gradient(-135deg,#DA291C 40%,#761706 100%);
+}
+.precarga_imgs{
+	width: 0px;
+	height: 0px;
+}
+.navigation>li>ul{
+	top: 75%;
+}
+.blog-single-post.classic-blog-news .content .text ul{
+	list-style: disc;
+	padding-left: 20px;
+	color: #999;
+}
+.blog-single-post.classic-blog-news .content .text ul li{
+	margin-bottom: 10px;
+	color: #999;
+}
+.alignleft{
+	margin-bottom: 15px;
+}
+ul.social-icon.social_fijo{
+	position: fixed;
+	top: 25%;
+	right: .5%;
+	z-index: 998;
+	transition: all .6s ease;
+	transition-delay: 1s;
+}
+ul.social-icon.social_fijo li{
+	display: block;
+	margin-bottom: 20px;
+	padding: 0;
+	background: #DA291C;
+	border-radius: 50%;
+	background-size: cover;
+	transition: all .5s ease;
+}
+ul.social-icon.social_fijo li:hover{
+	background: #fff;
+	transform: scale(1.2);
+}
+ul.social-icon.social_fijo li a{
+	border-radius: 50%;
+	transition: all .5s ease;
+	color: #fff;
+}
+ul.social-icon.social_fijo li a:hover{
+	color: #DA291C;
+}
+.post-area article.col-md-6.col-sm-6.col-xs-12:nth-child(2n-1){
+	clear: left;
+}
+.loader_iframe{
+	background-image: url(images/logo/preloader.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+blockquote{
+	border-left: 5px solid #DA291C;
+}
+.save_pop .box_pop img{
+	width: 100%;
+	height: 450px!important;
+}
+.save_pop h2{
+	text-transform: uppercase;
+	font-family: 'TradeGothic'!important;
+}
+.save_pop p, .save_pop a{
+	font-family: 'GillSans'!important;	
+}
+.save_pop p{
+	margin: 14% 0;
+	color: inherit;
+}
+.save_pop p:last-child{
+	margin: 0;
+}
+.save_pop a{
+	background: #DA291C;
+	color: #fff;
+	padding: 5px 20px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+.save_pop .box_t1{
+	text-align: left;
+}
+.save_pop .box_t2{
+	text-align: right;
+}
+.save_pop .box_contenido{
+	padding: 61px 40px;
+	max-height: 450px;
+	text-align: center;
+}
+.pum-theme-1199 .pum-title, .pum-theme-lightbox .pum-title{
+	display: none;
+}
+@media only screen and (max-width: 1366px) {
+	.save_pop .box_contenido{
+		padding: 40px 30px;
+	}
+	.save_pop p{
+		margin: 12% 0;
+	}
+	.save_pop .box_pop img{
+		height: 396px!important;
+	}
+	.inner-banner .box{
+		height: 47vh;
+		max-height: 360px;
+	}
+	.inner-banner h1{
+		margin: auto;
+	}
+	.pilares, .aporte, .intervencion, .unete_padre{
+		max-width: 1200px;
+	}
+	.pilares{
+		margin: 80px auto 50px;
+	}
+	.pilares .section-title h1{
+		margin-bottom: 70px;
+	}
+	.pilares .contenido_pilares{
+		padding-right: 175px;
+	}
+	.pilares .img_pilares{
+		width: 780px;
+		height: 780px;
+		transform: scale(.98);
+		top: -88px;
+		left: -30%;
+	}
+	.pilares .img_pilares.efecto_img{
+		top: -35px;
+	}
+	.pilares .img_pilares:before{
+		width: 780px;
+		height: 780px;
+	}
+	.pilares .contenido_pilares p{
+		font-size: 15px;
+	}
+	.pilares .contenido_pilares .row{
+		margin-bottom: 10px;
+	}
+	.pilares .contenido_pilares .row .col-xs-2{
+		padding: 0px 7px;
+	} 
+	.intervencion{
+		background-size: 36%;
+	}
+	.intervencion dl.proyectos{
+		padding-top: 0%;
+	}
+	.aporte_padre{
+		background-size: 70%;
+	}
+	.aporte .contenido_aportes{
+		padding-top: 60px;
+		min-height: 580px;
+	}
+	.causa h3{
+		font-size: 19px;
+	}
+	.causa .botones{
+		bottom: .4%;
+	}
+	.unete{
+		padding: 60px;
+	}
+	.unete .section-title h1{
+		font-size: 55px;
+		margin-bottom: 0;
+	}
+	.unete .section-title{
+		margin-bottom: 0;
+	}
+	.unete .contenido p.unete_comilla{
+		font-size: 100px;
+		margin-top: 0%;
+	}
+	.unete .contenido p.unete_texto{
+		font-size: 22px;
+		margin: -10px 48px 0;
+	}
+	.unete .imagen{
+		top: -108px;
+	}
+	.aporte .contenido_aportes .owl_nextI{
+		max-width: 24%;
+	}
+}
+@media only screen and (max-width: 1280px) {
+	.causa img, .causa svg{
+		margin-right: 4%;
+	}
+	.save_pop .box_contenido{
+		padding: 28px 30px;
+	}
+	.save_pop .box_pop img{
+		height: 393px!important;
+	}
+}
+@media only screen and (width: 1024px) and (height: 1366px){
+	.inner-banner.page_int_titulo h1{
+		line-height: 1.1!important;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.save_pop .box_contenido{
+		padding: 40px 20px;
+	}
+	.save_pop p{
+		font-size: 13px;
+		line-height: normal;
+	}
+	.save_pop h2{
+		font-size: 24px;
+	}
+	.save_pop .box_pop img{
+		height: 308px!important;
+	}
+	.rev_slider_wrapper .slide-content-box h1{
+		font-size: 40px!important;
+		line-height: 40px!important;
+	}
+	.about.sec-padd-top.about_contenedor .content{
+		margin-top: 12px;
+	}
+	.about .content h3{
+		padding: 0 0 20px;
+	}
+	.theme_menu .logo{
+		margin-top: 17px;
+	}
+	.galeria_videos iframe{
+		height: 325px;
+	}
+	.contendor_titulos{
+		left: -85%!important;
+	}
+	.contendor_titulos.extra_largo{
+		left: -70%!important;
+	}
+	.inner-banner h1{
+		font-size: 30px;
+	}
+	.embajadores{
+		height: 150px;
+	}
+	.sidebar-widget .sidebar_social ul li{
+		margin: 0 3px;
+	}
+	.sidebar-widget .sidebar_social ul li a i.fa_contact{
+		font-size: 25px;
+		width: 40px;
+		height: 40px;
+		line-height: 39px;
+	}
+	.inner-banner.page_int_titulo h1{
+		line-height: 1.08;
+	}
+	.pilares, .aporte, .intervencion, .unete_padre{
+		max-width: 970px;
+	}
+	.pilares{
+		margin: 100px auto 60px;
+	}
+	.pilares .contenido_pilares{
+		padding-right: 122px;
+	}
+	.pilares .contenido_pilares p{
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.pilares .contenido_pilares .row{
+		margin-bottom: 5px;
+	}
+	.pilares .section-title h1{
+		margin-bottom: 65px;
+	}
+	.pilares .img_pilares{
+		width: 650px;
+		height: 650px;
+		transform: scale(1);
+		top: -30px;
+	}
+	.pilares .img_pilares.efecto_img{
+		top: -13px;
+	}
+	.pilares .img_pilares:before{
+		width: 650px;
+		height: 650px;
+	}
+	.contenido_pilares svg{
+		max-width: max-content;
+		max-width: -moz-max-content;
+		max-width: -ms-max-content;
+		width: 40px;
+		position: absolute;
+		top: 0px;
+		left: 10px;
+	}
+	.aporte .contenido_aportes p{
+		font-size: 18px;
+	}
+	.aporte .contenido_aportes{
+		padding: 90.5px 0;
+		min-height: 468px;
+	}
+	.contenido_aportes .titulo h1, .unete .section-title h1{
+		font-size: 45px;
+	}
+	.intervencion{
+		max-width: 920px;
+		margin: 50px auto;
+		margin-bottom: 80px;
+	}
+	.intervencion p{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.intervencion ul.zonas{
+		right: -50px;
+	}
+	.intervencion ul.zonas li{
+		padding-bottom: 5px;
+	}
+	.intervencion dl.proyectos dt, .intervencion dl.proyectos dd{
+		font-size: 14px;
+		line-height: 20px;
+		padding-bottom: 5px;
+	}
+	.intervencion dl.proyectos dd{
+		margin-left: 38px;
+	}
+	.intervencion .section-title h1, .section-title h1{
+		font-size: 30px;
+	}
+	.unete{
+		padding: 40px;
+	}
+	.unete .contenido p{
+		line-height: 20px;
+		margin-bottom: 20px;
+	}
+	.unete .contenido ul{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.unete .imagen{
+		top: -110px;
+	}
+	.unete .contenido p.unete_comilla{
+		font-size: 80px;
+	}
+	.unete .contenido p.unete_texto{
+		font-size: 18px;
+		margin: -10px 23px 0;
+	}
+	.listado_ini .default-blog-news .lower-content .text p{
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.listado_ini .default-blog-news .lower-content h4 a{
+		font-size: 15px;
+		line-height: 16px;
+	}
+	.footer-bottom .dir_footer{
+		padding-left: 30px;
+	}
+	.footer-bottom .get-text p{
+		font-size: 12px;
+	}
+	.aporte .contenido_aportes .owl_nextI{
+		max-width: 30%;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.mob-menu-header-holder{
+		background: #fff!important;
+	}
+	.mob-menu-header-holder{
+		top: 8px!important;
+	}
+	.mob-menu-header-holder{
+		position: absolute!important;
+	}
+	.mobmenur-container{
+		top:25%!important;
+	}
+	.mob-menu-slideout-over .mobmenu_content{
+		padding-top: 20%!important;
+	}
+	.theme_menu .right-column{
+		right: 11px!important;
+		top: -17px!important;
+	}
+	.theme_menu .menu-area{
+		min-height: 62px!important;
+	}
+	.right-column .thm-btn.style-2{
+		padding: 0 15px;
+		line-height: 35px;
+	}
+	.nav_side_content{
+		margin-top: 35px;
+	}
+	.inner-banner .box{
+		height: 30vh;
+		max-height: 300px;
+	}
+	.pilares .img_pilares{
+		display: none;
+	}
+	.pilares{
+		margin: 50px auto 60px;
+	}
+	.unete_padre, .intervencion, .aporte, .pilares{
+		max-width: 680px;
+	}
+	.unete .section-title h1{
+		text-align: right;
+		margin-right: 280px;
+		margin-bottom: 57px;
+	}
+	.unete .imagen{
+		max-width: 36%;
+		top: -390px;
+		right: 135px;
+	}
+	.unete .contenido p.unete_comilla{
+		display: none;
+		font-size: 90px;
+		margin-right: 20%;
+	}
+	.unete .contenido p.unete_texto{
+		font-size: 23px;
+		width: 79%;
+		margin: auto;
+	}
+	.intervencion a.btnS{
+		white-space: nowrap;
+		right: 27px;
+	}
+	.intervencion ul.zonas{
+		margin-top:0;
+		top: 0;
+		right: -460px;
+	}
+	.intervencion ul.zonas li svg{
+		max-height: 30px;
+	}
+	.intervencion ul.zonas li{
+		padding-bottom: 4px;
+	}
+	.intervencion .contenido_inter.zona{
+		padding-bottom: 50px;
+	}
+	.intervencion .col-sm-offset-2.col-sm-6.visible-sm.visible-xs{
+		margin-top: 12%;
+		padding-left: 5%;
+	}
+	.intervencion{
+		margin-bottom: 100px;
+	}
+	.contendor_titulos1{
+		left: 7%!important;
+		top: -12%;
+	}
+	.aporte img{
+		position: static;
+		transform: scale(.5) translate(44%,6%);
+	}
+	.aporte_padre{
+		background-size: 90%;
+		background-position: center 80%;
+	}
+	.aporte .contenido_img{
+		width: 55%;
+	}
+	.contenido_aportes .titulo{
+		bottom: auto;
+		top: -30%;
+		transform: translateX(0px) translateY(100px);
+	}
+	.aporte .owl-item.active img{
+		transform: scale(1) translate(44%,6%);
+		opacity: 1;
+	}
+	.aporte .owl-item.active .contenido_aportes .titulo{
+		transform: translateX(0px);
+		opacity: 1;
+	}
+	.aporte .contenido_aportes{
+		margin-left: 0;
+		padding: 90.5px;
+		min-height: auto;
+	}
+	.contendor_titulos1 h1{
+		text-align: left!important;
+	}
+	.inner-banner.page_int_titulo h1{
+		line-height: 1.08;
+	}
+	.inner-banner h1{
+		width: auto;
+		margin: auto;
+	}
+	.listado_ini .default-blog-news .lower-content .content{
+		padding: 10px 20px;
+	}
+	.about.sec-padd-top.about_contenedor{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	.solucion_about{
+		top: 25%;
+		left: -19px;
+	}
+	.solucion_about li a{
+		font-size: 20px;
+	}
+	.about.sec-padd-top.about_contenedor .content{
+		margin-top: 0;
+		width: 85%;
+	}
+	.inner-banner.has-base-color-overlay .col-md-5 .box{
+		height: 150px;
+	}
+	.about-carousel.owl-carousel .owl-stage-outer{
+		padding-left: 34px;
+	}
+	.about-carousel.owl-carousel .item{
+		padding-right: 50px;
+	}
+	ul.list-inline.social  li.compartir_whatsapp{
+		display: inline-block !important;
+	}
+	.publicaciones_listado .col-md-5{
+		text-align: center;
+	}
+	.embajadores{
+		height: 200px;
+	}
+	.contendor_titulos h1{
+		text-align: left!important;
+	}
+	.contendor_titulos{
+		left: 7%!important;
+		top: -25%;
+	}
+	.contendor_titulos.extra_largo{
+		left: 7%!important;
+	}
+	.footer-bottom{
+		padding-bottom: 20px;
+	}
+	.footer-bottom .dir_footer{
+		padding-left: 0;
+		border-left: none;
+		text-align: center;
+	}
+	.footer-bottom .get-text p{
+		text-align: center;
+		font-size: 14px;
+	}
+	.footer-bottom .col-md-7 .get-text{
+		margin-bottom: 0;
+	}
+	.footer-bottom .col-md-4 .get-text{
+		margin-bottom: 0;
+		margin-top:0;
+	}
+	.footer-bottom .visible-sm.visible-xs h4{
+		font-size: 14px;
+	}
+	.subscribe .pull-left{
+		float: none!important
+	}
+	.blog-section.listado_ini .default-blog-news{
+		margin-bottom: 15px;
+	}
+	.causa{
+		height: 95vh;
+	}
+	.causa img{
+		width: 30%;
+	}
+	.causa .section-title h1:after{
+		left: 45.5%;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.mob-menu-header-holder{
+		top: 10px!important;
+	}
+	iframe{
+		width: 100%!important;
+	}
+	.mob-menu-header-holder, .mob-standard-logo{
+		max-height: 50px!important;
+	}
+	.mobmenu-push-wrap, body.mob-menu-slideout-over{
+		padding-top: 50px!important;
+	}
+	.scroll-top{
+		width: 35px;
+		height: 35px;
+		bottom: 10px;
+		right: 10px;
+	}
+	.theme_menu .right-column{
+		right: 5%!important;
+	}
+	.right-column .thm-btn.style-2{
+		font-size: 13px!important;
+		padding: 0 8px;
+		line-height: 30px;
+	}
+	.theme_menu .menu-area{
+		min-height: 58px!important;
+	}
+	.blog-section.listado_ini .col-md-3.col-sm-6.col-xs-12:nth-child(4n),
+	.blog-section.listado_ini .col-md-3.col-sm-6.col-xs-12:nth-child(3n),
+	.blog-section.listado_ini .col-md-3.col-sm-6.col-xs-12:nth-child(2n){
+		display: none;
+	}
+	.unete_padre{
+		max-width: 350px;
+	}
+	.intervencion, .aporte, .pilares{
+		max-width: 320px;
+	}
+	.intervencion{
+		background: none;
+		margin-bottom: 125px;
+	}
+	.unete_padre{
+		margin-bottom: 50px;
+	}
+	.contenido_aportes .titulo h1, .unete .section-title h1{
+		font-size: 25px;
+	}
+	.unete .section-title h1 span{
+		white-space: nowrap;
+	}
+	.unete .imagen{
+		max-width: 50%;
+		top: -300px;
+		right: 66px;
+	}
+	.unete .contenido ul{
+		margin-left: 0;
+		text-align: center;
+	}
+	.unete .section-title h1, .unete .section-title{
+		margin-bottom: 50px;
+	}
+	.unete .section-title h1{
+		font-size: 22px;
+	}
+	.intervencion .col-sm-offset-2.col-sm-5.visible-sm.visible-xs{
+		margin-top: 0;
+		padding-left: 0;
+	}
+	.intervencion ul.zonas{
+		position: static;
+		margin-top: 15px;
+		margin-left: 45px;
+	}
+	.intervencion .contenido_inter.zona{
+		padding-bottom: 20px;
+	}
+	.intervencion a.btnS{
+		right: auto;
+	}
+	.intervencion .contenido_inter{
+		padding-bottom: 20px;
+	}
+	.inner-banner.page_int_titulo h1{
+		line-height: 1.09;
+	}
+	.aporte_padre{
+		background-position: center 80%;
+		background-size: 90%;
+	}
+	.aporte .contenido_aportes{
+		padding: 40px 0;
+	}
+	.aporte .contenido_aportes p,.aporte .contenido_aportes ul{
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 20px;
+	}
+	.contenido_aportes .section-title{
+		margin-bottom: 20px;
+	}
+	.aporte .contenido_img{
+		width: 80%;
+	}
+	.aporte img{
+		transform: scale(.5) translate(19%,0%);
+	}
+	.aporte .owl-item.active img{
+		transform: scale(1) translate(19%,0%);
+		opacity: 1;
+	}
+	.pilares .contenido_pilares{
+		padding-right:  0px;
+	}
+	.pilares .contenido_pilares .row{
+		margin-left: -15px!important;
+	}
+	.contenido_pilares svg{
+		top: -11px;
+		left: 22px;
+	}
+	.pilares .contenido_pilares .col-md-6{
+		margin-bottom: 15px;
+	}
+	.col-md-8.contenido_pilares{
+		padding-left: 0;
+		padding-right: 3%;
+	}
+	.inner-banner h1{
+		font-size: 30px;
+	}
+	.inner-banner h1 span{
+		box-shadow: 5px 0 0 #fff, -5px 0 0 #fff;
+	}
+	.rev_slider_wrapper .slide-content-box h1{
+		font-size: 20px!important;
+		line-height: 20px!important;
+		box-shadow: 6px 0 0 #fff, -6px 0 0 #fff;
+		border-radius: .18em;
+	}
+	.rev_slider_wrapper .slide-content-box .button a.thm-btn{
+		line-height: 25px!important;
+		padding: 0 10px!important;
+		font-size: 12px!important;
+		box-shadow: 0px 0 0 #DA291C, 0px 0 0 #DA291C;
+		border-radius: .2em;
+	}
+	.rev_slider_wrapper .slide-content-box p{
+		font-size: 12px!important;
+	}
+	.galeria_videos iframe{
+		height: 145px;
+	}
+	.blog-single-post .author-comment{
+		padding-left: 0;
+	}
+	.inner-banner.has-base-color-overlay .col-md-7 .box{
+		height: 30vh;
+		max-height: 220px;
+	}
+	.inner-banner.has-base-color-overlay .col-md-5 .box{
+		height: 130px;
+	}
+	.sec-padd{
+		padding: 0;
+	}
+	.publicaciones_listado .default-blog-news figure, .publicaciones_listado .default-blog-news .img-holder{
+		width: 100%;
+	}
+	.publicaciones_listado .default-blog-news .img-holder img{
+		max-width: 100%;
+	}
+	.publicaciones_listado.nota_prensa .default-blog-news .img-holder img{
+		width: auto;
+		margin: auto;
+	}
+	.page_int.blog-section .contenido iframe{
+		width: 100%!important;
+		height: auto!important;
+	}
+	.page_int.blog-section .contenido{
+		margin: 2em 1em;
+		padding: 2em 1em;
+		width: 92%;
+	}
+	.publicaciones_listado.nota_prensa .default-blog-news .lower-content .content{
+		max-height: max-content;
+		max-height: -moz-max-content;
+		max-height: -ms-max-content;
+	}
+	.footer-bottom{
+		padding-bottom: 40px;
+		padding-top: 30px;
+	}
+	.unete .contenido p.unete_comilla{
+		font-size: 60px;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.unete .contenido p.unete_texto{
+		width: 100%;
+	}
+	.unete .contenido p.unete_texto, .unete .contenido p.unete_nombre{
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.causa .section-title h1,.causa .section-title{
+		margin-bottom: 20px
+	}
+	.causa h3{
+		font-size: 17px;
+	}
+	.causa p{
+		width: 80%;
+		text-align: center;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.causa .section-title h1:after{
+		left: 41.5%;
+	}
+	.aporte .contenido_aportes .owl_nextI{
+		max-width: 46%;
+	}
+}
+@media only screen and (max-width: 374px) {
+	.mob-menu-logo-holder{
+		text-align: left!important;
+		padding-left: 5%;
+	}
+	.footer-bottom svg{
+		min-width: 100%;
+	}
+	.intervencion, .aporte, .pilares, .unete_padre{
+		max-width: 100%;
+		padding: 0 30px;
+	}
+	.intervencion{
+		margin-bottom: 145px;
+	}
+	.aporte .contenido_aportes{
+		padding: 40px 0;
+		max-width: 100%;
+	}
+	.aporte .contenido_aportes p, .aporte .contenido_aportes ul{
+		font-size: 13px;
+		line-height: 17px;
+		margin-bottom: 20px;
+	}
+	.aporte img{
+		transform: translate(15%,0);
+	}
+	.intervencion ul.zonas{
+		margin-left: 10px;
+	}
+	.intervencion dl.proyectos{
+		margin-left: 0;
+	}
+	.unete{
+		padding: 20px;
+	}
+	.about.sec-padd-top.about_contenedor .content{
+		width: 100%;
+	}
+	.about.sec-padd-top.about_contenedor .img-box{
+		margin-bottom: 20px;
+	}
+	.inner-banner h1{
+		left: auto;
+		width: 75%!important;
+	}
+	.inner-banner.has-base-color-overlay .col-md-7 .box{
+		height: 200px;
+	}
+	.inner-banner.has-base-color-overlay .col-md-5 .box{
+		height: 100px;
+	}
+	.g-recaptcha {
+		transform:scale(0.82);
+		-webkit-transform:scale(0.82);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+	}
+	.main-header .social-icon a{
+		font-size: 10px;
+	}
+	.social-icon.menuopt li{
+		padding: 0 5px;
+	}
+	.causa h3{
+		font-size: 13px;
+	}
+	.unete .imagen{
+		top: -280px;
+		right: 58px;
+	}
+}
+
+

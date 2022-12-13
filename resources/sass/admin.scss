@@ -1,0 +1,42 @@
+.dropzone.dropzone-default .dz-remove {
+	font-size: 12px;
+	margin-top: 5px;
+}
+.dropzone .dz-preview .dz-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.selected-row {
+	display: table;
+}
+.select2.select2-container.select2-container--default {
+	width: 100% !important;
+}
+// .select2-container--default .select2-selection__rendered {
+// 	white-space: break-spaces !important;
+// }
+.pre-line {
+	white-space: pre-line !important;
+}
+.form.map-tooltip-mode {
+	margin-top: 5px;
+	.form-group {
+		margin-bottom: 0;
+		label {
+			margin-bottom: 0;
+		}
+		span {
+			display: none;
+		}
+		p.form-control-plaintext {
+			margin: 0 !important;
+			font-weight: bold;
+		}
+		&:last-child {
+			p.form-control-plaintext {
+				padding-bottom: 0;
+			}
+		}
+	}
+}
